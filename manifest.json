@@ -1,0 +1,9 @@
+{
+  "domain": "ad_ha_perms",
+  "name": "AD HA Permissions",
+  "version": "1.0.0",
+  "documentation": "https://github.com/the-imperfectionest/AD_HA_Perms",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@the-imperfectionest"]
+}
