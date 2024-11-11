@@ -1,0 +1,12 @@
+{
+  "domain": "ad_ha_perms",
+  "name": "AD HA Permissions Integration",
+  "documentation": "https://github.com/yourusername/AD_HA_Perms",
+  "dependencies": [],
+  "codeowners": ["@the-imperfectionest"],
+  "requirements": [
+    "ldap3==2.9.1"
+  ],
+  "version": "0.1.0",
+  "homeassistant": "2023.9.0"
+}
