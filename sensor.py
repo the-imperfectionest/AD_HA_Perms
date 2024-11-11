@@ -1,4 +1,10 @@
-import logging
+import sys
+import os
+
+# Add the ldap3 folder to the Python path so we can import it locally
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'ldap3'))
+
+# Now you can import ldap3 and its submodules
 from ldap3 import Server, Connection, ALL
 from homeassistant.helpers.entity import Entity
 
